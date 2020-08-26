@@ -1,11 +1,11 @@
-package com.petea.springguruudemy.bootstrap;
+package com.pete.springguruudemy.bootstrap;
 
-import com.petea.springguruudemy.model.Author;
-import com.petea.springguruudemy.model.Book;
-import com.petea.springguruudemy.model.Publisher;
-import com.petea.springguruudemy.repositories.AuthorRepository;
-import com.petea.springguruudemy.repositories.BookRepository;
-import com.petea.springguruudemy.repositories.PublisherRepository;
+import com.pete.springguruudemy.model.Author;
+import com.pete.springguruudemy.model.Book;
+import com.pete.springguruudemy.model.Publisher;
+import com.pete.springguruudemy.repositories.AuthorRepository;
+import com.pete.springguruudemy.repositories.BookRepository;
+import com.pete.springguruudemy.repositories.PublisherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

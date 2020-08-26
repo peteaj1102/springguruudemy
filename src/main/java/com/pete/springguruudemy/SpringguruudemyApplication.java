@@ -1,4 +1,4 @@
-package com.petea.springguruudemy;
+package com.pete.springguruudemy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

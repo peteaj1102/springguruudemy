@@ -1,4 +1,4 @@
-package com.petea.springguruudemy.model;
+package com.pete.springguruudemy.model;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -102,7 +102,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 }

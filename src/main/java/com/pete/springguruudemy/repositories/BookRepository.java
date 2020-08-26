@@ -1,6 +1,6 @@
-package com.petea.springguruudemy.repositories;
+package com.pete.springguruudemy.repositories;
 
-import com.petea.springguruudemy.model.Book;
+import com.pete.springguruudemy.model.Book;
 import org.springframework.data.repository.CrudRepository;
 
 /**

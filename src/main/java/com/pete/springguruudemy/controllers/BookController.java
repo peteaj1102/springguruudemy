@@ -1,6 +1,6 @@
-package com.petea.springguruudemy.controllers;
+package com.pete.springguruudemy.controllers;
 
-import com.petea.springguruudemy.repositories.BookRepository;
+import com.pete.springguruudemy.repositories.BookRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +21,7 @@ public class BookController {
     public String getBooks(Model model){
         model.addAttribute("books",bookRepository.findAll());
 
-        return "books";
+        return "books/list";
     }
 
 
